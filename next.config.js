@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+// next.config.js or next.config.mjs (see note below)
 import { setupDevPlatform } from "@cloudflare/next-on-pages/next-dev";
 
 const nextConfig = {
@@ -12,4 +12,4 @@ if (process.env.NODE_ENV === "development") {
   await setupDevPlatform();
 }
 
-module.exports = nextConfig;
+export default nextConfig;
