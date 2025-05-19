@@ -3,8 +3,8 @@ name = "sechurra"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = ".vercel/output/static"
-assets = { directory = ".worker-next/assets", binding = "ASSETS" }
+assets = { directory = ".worker-next/assets", binding = "MY_ASSETS" }
 
 [[kv_namespaces]]
 binding = "NEXT_CACHE_WORKERS_KV"
-id = "c0dd9240620a4093916e7f25014c788e"  
+id = "c0dd9240620a4093916e7f25014c788e"
