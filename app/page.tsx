@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -10,13 +10,14 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const heroRef = useRef(null);
-  const aboutRef = useRef(null);
-  const servicesRef = useRef(null);
-  const faqRef = useRef(null);
-  const contactRef = useRef(null);
+  const heroRef = useRef<HTMLElement>(null);
+  const aboutRef = useRef<HTMLElement>(null);
+  const servicesRef = useRef<HTMLElement>(null);
+  const faqRef = useRef<HTMLElement>(null);
+  const contactRef = useRef<HTMLElement>(null);
 
-  const scrollToSection = (ref) => {
+
+  const scrollToSection = (ref: React.RefObject<HTMLElement>) => {
     setMobileMenuOpen(false);
     ref.current?.scrollIntoView({ behavior: 'smooth' });
   };
