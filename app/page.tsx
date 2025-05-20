@@ -76,16 +76,16 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" ref={heroRef} className="w-full pt-24 pb-32 px-6 bg-[#F5F5F7]">
+      <section id="hero" ref={heroRef} className="w-full pt-24 pb-16 lg:pb-32 px-6 bg-[#F5F5F7]">
         <div className="max-w-5xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12">
-          <div className="lg:w-1/2 space-y-6">
-            <h1 className="text-5xl font-extrabold leading-tight">
+          <div className="lg:w-1/2 flex flex-col lg:block  space-y-6">
+            <h1 className="text-5xl text-center lg:text-left font-extrabold leading-tight">
               Unlock the Power of Accurate Data
             </h1>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-center lg:text-left text-gray-600">
               Ensure the highest data quality with our AI-driven solutions—clean, validate, and optimize large datasets effortlessly.
             </p>
-            <Button onClick={() => scrollToSection(servicesRef)} className="px-8 py-3 text-base">
+            <Button onClick={() => scrollToSection(servicesRef)} className="px-8 mx-auto lg:mx-0 py-3 text-base">
               Get Started
             </Button>
           </div>
@@ -102,7 +102,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" ref={aboutRef} className="w-full py-32 px-6">
+      <section id="about" ref={aboutRef} className="w-full py-16 lg:py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">About Us</h2>
           <div className="flex flex-col md:flex-row gap-10 items-center">
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" ref={servicesRef} className="w-full py-32 px-6 bg-[#F5F5F7]">
+      <section id="services" ref={servicesRef} className="w-full py-16 lg:py-32 px-6 bg-[#F5F5F7]">
         <div className="max-w-5xl mx-auto space-y-12">
           <h2 className="text-4xl font-semibold text-center">Our Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -156,7 +156,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" ref={faqRef} className="w-full py-32 px-6">
+      <section id="faq" ref={faqRef} className="w-full py-16 lg:py-32 px-6">
         <div className="max-w-3xl mx-auto space-y-8">
           <h2 className="text-4xl font-semibold text-center">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible>
@@ -179,7 +179,7 @@ export default function Home() {
       <section
         id="contact"
         ref={contactRef}
-        className="w-full py-32 px-6 bg-[#F5F5F7]"
+        className="w-full py-16 lg:py-32 px-6 bg-[#F5F5F7]"
       >
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h2 className="text-4xl font-semibold">Want to Improve the Quality of Your Data?</h2>
