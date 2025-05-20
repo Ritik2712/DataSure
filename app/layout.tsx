@@ -6,7 +6,7 @@ import { Toaster } from "sonner";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'DataSure Analytics - Unlock the Power of Accurate Data',
+  title: 'Sechurra Analytics - Unlock the Power of Accurate Data',
   description: 'Ensure the highest data quality with our AI-driven solutions—clean, validate, and optimize large datasets with ease.',
 };
 
