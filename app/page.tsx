@@ -117,7 +117,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 space-y-4">
               <p className="text-lg">
-                At DataSure Analytics, we specialize in ensuring data accuracy, consistency, and reliability for businesses handling massive datasets. Our advanced AI-powered solutions detect errors, remove duplicates, and validate information, helping organizations make informed decisions with confidence.
+                At Sechurra, we specialize in ensuring data accuracy, consistency, and reliability for businesses handling massive datasets. Our advanced AI-powered solutions detect errors, remove duplicates, and validate information, helping organizations make informed decisions with confidence.
               </p>
               <p className="text-lg">
                 With expertise across multiple industries, we transform raw data into a high-quality asset that drives growth and efficiency.
@@ -200,7 +200,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full py-12 px-6 bg-white text-center text-gray-600">
-        <p>© 2025 Sechurra Analytics. All rights reserved.</p>
+        <p>© 2025 Sechurra. All rights reserved.</p>
       </footer>
     </main>
   );
