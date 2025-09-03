@@ -191,7 +191,7 @@ export default function Home() {
             ecosystem.
           </p>
           <Button asChild>
-            <Link href="mailto:support@sechurra.com" className="px-8 py-3 text-base">
+            <Link href="mailto:sechurra@gmail.com" className="px-8 py-3 text-base">
               Email Us
             </Link>
           </Button>
