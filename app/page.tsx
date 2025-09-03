@@ -183,7 +183,7 @@ export default function Home() {
       >
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h2 className="text-4xl font-semibold">Want to Improve the Quality of Your Data?</h2>
-          <p className="text-lg font-medium">Get in Touch</p>
+          <p className="text-lg font-medium">Get in touch and book a free consultation today</p>
           <p className="text-lg text-gray-600">
             Take the first step towards transforming your raw data into a valuable
             asset. Our expert team is ready to help you implement solutions that
