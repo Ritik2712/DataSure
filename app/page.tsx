@@ -61,6 +61,7 @@ export default function Home() {
             {[
               { label: 'Home', ref: heroRef },
               { label: 'About', ref: aboutRef },
+              { label: 'Our Work', ref: ourwork },
               { label: 'Services', ref: servicesRef },
               { label: 'FAQ', ref: faqRef },
               { label: 'Contact', ref: contactRef },
