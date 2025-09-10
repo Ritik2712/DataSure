@@ -127,6 +127,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Work Section */}
+      <section id="work" className="w-full py-16 lg:py-32 px-6">
+        <div className="max-w-5xl mx-auto space-y-12">
+          <h2 className="text-4xl font-semibold text-center">Our Work</h2>
+          <p className="text-lg text-center text-gray-600 max-w-3xl mx-auto">
+            Explore how we’ve helped businesses clean, standardize, and unlock the power of their data.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              {
+                title: "Financial Data Cleaning for a Business Spin-Off",
+                description: "We helped a client transform raw financial data into accurate balance sheets with SQL, Excel, and AI-powered cleaning.",
+                image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
+                link: "/work/financial-data-cleaning",
+              },
+            ].map((work, idx) => (
+              <Card key={idx} className="border-none shadow-md hover:shadow-xl transition-shadow rounded-xl overflow-hidden">
+                <CardHeader className="p-0">
+                  <div className="relative h-52 w-full">
+                    <Image src={work.image} alt={work.title} fill className="object-cover" />
+                  </div>
+                </CardHeader>
+                <CardContent className="py-6 px-4 text-center">
+                  <CardTitle className="text-xl font-medium mb-2">{work.title}</CardTitle>
+                  <CardDescription className="text-sm text-gray-500">{work.description}</CardDescription>
+                  <Button asChild className="mt-4">
+                    <Link href={work.link}>Read Case Study</Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
       {/* Services Section */}
       <section id="services" ref={servicesRef} className="w-full py-16 lg:py-32 px-6 bg-[#F5F5F7]">
         <div className="max-w-5xl mx-auto space-y-12">
