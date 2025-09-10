@@ -153,7 +153,7 @@ export default function Home() {
                   <CardTitle className="text-xl font-medium mb-2">{work.title}</CardTitle>
                   <CardDescription className="text-sm text-gray-500">{work.description}</CardDescription>
                   <Button asChild className="mt-4">
-                    <Link href={work.link}>Read Case Study</Link>
+                    <Link href="/work/financial-data-reporting">Read Case Study</Link>
                   </Button>
                 </CardContent>
               </Card>
