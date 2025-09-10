@@ -35,6 +35,7 @@ export default function Home() {
             {[
               { label: 'Home', ref: heroRef },
               { label: 'About', ref: aboutRef },
+              { label: 'Our Work', ref: ourwork },
               { label: 'Services', ref: servicesRef },
               { label: 'FAQ', ref: faqRef },
               { label: 'Contact', ref: contactRef },
@@ -128,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Our Work Section */}
-      <section id="work" className="w-full py-16 lg:py-32 px-6">
+      <section id="work" ref={ourwork} className="w-full py-16 lg:py-32 px-6">
         <div className="max-w-5xl mx-auto space-y-12">
           <h2 className="text-4xl font-semibold text-center">Our Work</h2>
           <p className="text-lg text-center text-gray-600 max-w-3xl mx-auto">
