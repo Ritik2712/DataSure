@@ -137,8 +137,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "Financial Data Cleaning for a Business Spin-Off",
-                description: "We helped a client transform raw financial data into accurate balance sheets with SQL, Excel, and AI-powered cleaning.",
+                title: "Financial Data Reporting for a Business Spin-Off",
+                description: “When a client needed clear, reliable balance sheets for a legal entity spin-off, we built an end-to-end pipeline: cleaning messy Excel data, structuring it in SQL, and delivering refreshable reports in Excel.”,
                 image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
                 link: "/work/financial-data-cleaning",
               },
