@@ -12,6 +12,7 @@ export default function Home() {
 
   const heroRef = useRef<HTMLElement>(null);
   const aboutRef = useRef<HTMLElement>(null);
+  const ourwork = useRef<HTMLElement>(null);
   const servicesRef = useRef<HTMLElement>(null);
   const faqRef = useRef<HTMLElement>(null);
   const contactRef = useRef<HTMLElement>(null);
