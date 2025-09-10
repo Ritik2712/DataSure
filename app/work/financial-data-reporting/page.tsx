@@ -31,12 +31,12 @@ export default function CaseStudy() {
           </p>
 
           <h2 className="text-2xl font-semibold mt-6">The Challenge</h2>
-          <p>
+          <ul className="list-disc pl-6 space-y-2">
             <li>Finance relied on multiple inconsistent Excel files.</li>
             <li>Account hierarchies were buried in indentation and formatting.</li>
             <li>Consolidating data for each legal entity was slow and error-prone.</li>
             <li>Manual processes created compliance risk during a sensitive restructuring.</li>
-          </p>
+          </u1>
 
           <h2 className="text-2xl font-semibold mt-6">Our Approach</h2>
           <ul className="list-disc pl-6 space-y-2">
@@ -47,12 +47,12 @@ export default function CaseStudy() {
           </ul>
 
           <h2 className="text-2xl font-semibold mt-6">Results</h2>
-          <p>
+          <ul className="list-disc pl-6 space-y-2">
             <li>Finance leaders now generate accurate, drill-down reports in minutes instead of days.</li>
             </li>Reports are entity-specific, enabling clarity during the spin-off process.</li>
             </li>The SQL-backed model ensures data consistency, auditability, and scalability for future reporting needs.</li>
             </li>Manual work was eliminated, freeing the finance team to focus on decision-making instead of spreadsheet wrangling.</li>
-          </p>
+          </u1>
         </section>
 
         <div className="flex justify-center mt-10">
