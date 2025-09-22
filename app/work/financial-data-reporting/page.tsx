@@ -131,7 +131,7 @@ export default function FinancialReportingCaseStudy() {
           <p className="text-gray-600 max-w-xl mx-auto">
             Whether you’re preparing for a spin-off, managing multiple entities, or simply tired of messy spreadsheets, we can help you design a reporting pipeline that’s clean, accurate, and fast.
           </p>
-          <a href="mailto:hello@sechurra.com">
+          <a href="mailto:sechurra@gmail.com">
             <Button size="lg" className="bg-blue-600 text-white rounded-xl px-8 py-3 shadow-lg hover:bg-blue-700">
               Let’s Talk
             </Button>
