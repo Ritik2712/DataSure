@@ -47,6 +47,39 @@ export default function FinancialReportingCaseStudy() {
           </ul>
         </section>
 
+        {/* Before vs After */}
+        <section className="space-y-6">
+          <h2 className="text-2xl font-bold text-center">Before vs After</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="p-6 bg-gray-50 rounded-xl shadow text-center space-y-4">
+              <h3 className="font-semibold text-lg">Before</h3>
+              <Image
+                src="https://images.unsplash.com/photo-1607082349566-187342bbfa9e?auto=format&fit=crop&w=800&q=80"
+                alt="Messy Excel data"
+                width={500}
+                height={300}
+                className="rounded-lg shadow"
+              />
+              <p className="text-gray-600 text-sm">
+                Inconsistent spreadsheets, buried hierarchies, manual reconciliations.
+              </p>
+            </div>
+            <div className="p-6 bg-blue-50 rounded-xl shadow text-center space-y-4">
+              <h3 className="font-semibold text-lg">After</h3>
+              <Image
+                src="https://images.unsplash.com/photo-1631815586109-8fd1c1b5a6f2?auto=format&fit=crop&w=800&q=80"
+                alt="Clean pivot table"
+                width={500}
+                height={300}
+                className="rounded-lg shadow"
+              />
+              <p className="text-gray-600 text-sm">
+                Standardized SQL star schema feeding clean, dynamic pivot reports.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* Results */}
         <section className="space-y-6">
           <h2 className="text-2xl font-bold">The Results</h2>
@@ -98,9 +131,11 @@ export default function FinancialReportingCaseStudy() {
           <p className="text-gray-600 max-w-xl mx-auto">
             Whether you’re preparing for a spin-off, managing multiple entities, or simply tired of messy spreadsheets, we can help you design a reporting pipeline that’s clean, accurate, and fast.
           </p>
-          <Button size="lg" className="bg-blue-600 text-white rounded-xl px-8 py-3 shadow-lg hover:bg-blue-700">
-            Let’s Talk
-          </Button>
+          <a href="mailto:hello@sechurra.com">
+            <Button size="lg" className="bg-blue-600 text-white rounded-xl px-8 py-3 shadow-lg hover:bg-blue-700">
+              Let’s Talk
+            </Button>
+          </a>
         </section>
 
       </div>
