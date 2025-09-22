@@ -54,7 +54,7 @@ export default function FinancialReportingCaseStudy() {
             <div className="p-6 bg-gray-50 rounded-xl shadow text-center space-y-4">
               <h3 className="font-semibold text-lg">Before</h3>
               <Image
-                src="https://images.unsplash.com/photo-1607082349566-187342bbfa9e?auto=format&fit=crop&w=800&q=80"
+                src="app/work/financial-data-reporting/Before.png"
                 alt="Messy Excel data"
                 width={500}
                 height={300}
@@ -67,7 +67,7 @@ export default function FinancialReportingCaseStudy() {
             <div className="p-6 bg-blue-50 rounded-xl shadow text-center space-y-4">
               <h3 className="font-semibold text-lg">After</h3>
               <Image
-                src="https://images.unsplash.com/photo-1631815586109-8fd1c1b5a6f2?auto=format&fit=crop&w=800&q=80"
+                src="app/work/financial-data-reporting/After.png"
                 alt="Clean pivot table"
                 width={500}
                 height={300}
