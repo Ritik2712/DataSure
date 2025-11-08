@@ -15,7 +15,7 @@ export default function DisputeDataWarehouseCaseStudy() {
           </p>
           <div className="relative h-72 w-full">
             <Image
-              src="https://images.unsplash.com/photo-1551281044-8d8d0d8d3d3f?auto=format&fit=crop&w=1600&q=80"
+              src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?auto=format&fit=crop&w=1600&q=80"
               alt="Data architecture whiteboard"
               fill
               className="object-cover rounded-xl shadow-lg"
