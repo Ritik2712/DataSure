@@ -102,7 +102,7 @@ export default function DisputeDataWarehouseCaseStudy() {
             <div className="p-6 bg-gray-50 rounded-xl shadow text-center space-y-4">
               <h3 className="font-semibold text-lg">Before</h3>
               <Image
-                src="/work/dispute-warehouse/Before.png" // replace with your raw-data image
+                src="/work/data_architecure/Messy_Data.png" // replace with your raw-data image
                 alt="Raw/siloed dispute data"
                 width={500}
                 height={300}
@@ -115,7 +115,7 @@ export default function DisputeDataWarehouseCaseStudy() {
             <div className="p-6 bg-blue-50 rounded-xl shadow text-center space-y-4">
               <h3 className="font-semibold text-lg">After</h3>
               <Image
-                src="/work/dispute-warehouse/After.png" // replace with your final visualisation image
+                src="/work/data_architecure/Banking_dashboard.png" // replace with your final visualisation image
                 alt="Gold model and dashboards"
                 width={500}
                 height={300}
