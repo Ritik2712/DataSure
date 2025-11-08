@@ -145,6 +145,12 @@ export default function Home() {
                 image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80",
                 link: "/work/financial-data-cleaning",
               },
+             {
+                title: "Banking Data Model & Architecture for Enterprise Reporting",
+                description: "Designed a scalable data architecture for a mid-sized bank, including 3NF staging, Data Vault core layer, and star-schema marts for Power BI dashboards. Automated ingestion, validation, and schema drift handling.",
+                image: "/images/case-studies/banking-data-model.png", //replace with your actual image or Unsplash placeholder
+                link: "/work/banking-data-architecture",
+             },
             ].map((work, idx) => (
               <Card key={idx} className="border-none shadow-md hover:shadow-xl transition-shadow rounded-xl overflow-hidden">
                 <CardHeader className="p-0">
