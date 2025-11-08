@@ -148,7 +148,7 @@ export default function Home() {
              {
                 title: "Banking Data Model & Architecture for Enterprise Reporting",
                 description: "Designed a scalable data architecture for a mid-sized bank, including 3NF staging, Data Vault core layer, and star-schema marts for Power BI dashboards. Automated ingestion, validation, and schema drift handling.",
-                image: "/images/case-studies/banking-data-model.png", //replace with your actual image or Unsplash placeholder
+                image: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170", //replace with your actual image or Unsplash placeholder
                 link: "/work/banking-data-architecture",
              },
             ].map((work, idx) => (
