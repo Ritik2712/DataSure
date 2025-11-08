@@ -149,7 +149,7 @@ export default function Home() {
                 title: "Banking Data Model & Architecture for Enterprise Reporting",
                 description: "Delivered a governed data warehouse that consolidates customer, card, merchant, transaction, and dispute records into a unified star-schema model. Enabled traceable, high-quality data for reporting, compliance, and operational analytics through automated Snowflake procedures and Power BI visualization.",
                 image: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170", //replace with your actual image or Unsplash placeholder
-                link: "/work/banking-data-architecture",
+                link: "/work/data_architecture",
              },
             ].map((work, idx) => (
               <Card key={idx} className="border-none shadow-md hover:shadow-xl transition-shadow rounded-xl overflow-hidden">
